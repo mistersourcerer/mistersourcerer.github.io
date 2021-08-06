@@ -1,3 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.mistersourcerer.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Mister Sourcerer's Bloggy Blog"
+
+plugins:
+  - jekyll-feed
