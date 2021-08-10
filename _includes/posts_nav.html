@@ -1,0 +1,9 @@
+<nav class="posts-list">
+  <ul>
+    {% for post in include.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

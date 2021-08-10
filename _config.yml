@@ -1,6 +1,32 @@
 url: "https://www.mistersourcerer.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Mister Sourcerer's Bloggy Blog"
-
+title: "Mister Sourcerer's Bloggy Blog [msbb]"
 plugins:
   - jekyll-feed
+lang: "EN-us"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Mr. Sourcerer aka Ricardo Valeriano"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "PT-br"
+      type: "posts"
+    values:
+      lang: "PT-br"
+
+# jekyll-feed:
+feed:
+  categories:
+    - EN-us
+    - PT-br

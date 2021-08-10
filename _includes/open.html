@@ -1,0 +1,29 @@
+{% assign pt = false %}
+{% for category in page.categories %}
+  {% if category == "PT-br" %}
+    {% assign pt = true %}
+  {% endif %}
+{% endfor %}
+
+{% capture lang %}
+  {% if pt %}
+    PT-br
+  {% elsif page.lang %}
+    {{ page.lang }}
+  {% elsif site.lang %}
+    {{ site.lang }}
+  {% else %}
+    EN-us
+  {% endif %}
+{% endcapture %}
+
+{% capture feed %}
+  {% if page.feed %}
+    {{ page.feed }}
+  {% else %}
+    /feed/{{ lang | strip }}.xml
+  {% endif %}
+{% endcapture %}
+
+<!DOCTYPE html>
+<html lang="{{ lang | strip }}">

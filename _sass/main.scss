@@ -2,8 +2,36 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
+$pallete_main: #F9ED69;
+$pallete_second: #F08A5D;
+$pallete_middle: #B83B5E;
+$pallete_last: #6A2C70;
+$pallete_dark: #222831;
+
 body {
   background: $backgroundColor;
-  color: $bodyColor;
+  color: $pallete_dark; //$bodyColor;
   font-family: $bodyFont;
+}
+
+h1 {
+  color: $pallete_second;
+  font-size: 4em;
+}
+
+h2 {
+  color: $pallete_last;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.7em;
+}
+
+.detail {
+  font-size: 1em;
+}
+
+.detail.important {
+  color: $pallete_last;
 }

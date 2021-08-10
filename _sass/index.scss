@@ -1,0 +1,26 @@
+@import "main";
+
+h2 {
+  color: $pallete_second;
+}
+
+a {
+  color: $pallete_middle;
+  text-decoration: none;
+}
+
+
+nav.posts-list {
+  a {
+    color: $pallete_last;
+    font-size: 2em;
+  }
+}
+
+.title {
+  display: contents;
+}
+
+.subtitle {
+  display: initial;
+}
