@@ -1,9 +1,31 @@
-@import "main";
+@import "pallete";
+@import "fonts";
 
 h1 {
-  color: $pallete_second;
+  color: $pallete_first;
+  padding-bottom: 20px;
 }
 
-h2 {
-  color: $pallete_middle;
+main {
+  h2 {
+    color: $pallete_middle;
+    font-family: $baloo, $bodyFont;
+    font-size: 2.3em;
+    padding: 30px 0px 20px 0px;
+  }
+
+  article {
+    @media (max-width: 800px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    padding-top: 40px;
+    max-width: 800px;
+
+    p {
+      font-family: Helvetica;
+      font-size: 1.7em;
+      padding-bottom: 35px;
+    }
+  }
 }

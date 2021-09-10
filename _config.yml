@@ -3,6 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Mister Sourcerer's Bloggy Blog [msbb]"
 plugins:
   - jekyll-feed
+  - jemoji
 lang: "EN-us"
 
 defaults:

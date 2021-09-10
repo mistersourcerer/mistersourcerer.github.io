@@ -16,14 +16,16 @@
     EN-us
   {% endif %}
 {% endcapture %}
+{% assign lang = lang | strip %}
 
 {% capture feed %}
   {% if page.feed %}
     {{ page.feed }}
   {% else %}
-    /feed/{{ lang | strip }}.xml
+    /feed/{{ lang }}.xml
   {% endif %}
 {% endcapture %}
+{% assign feed = feed | strip %}
 
 <!DOCTYPE html>
-<html lang="{{ lang | strip }}">
+<html lang="{{ lang }}">

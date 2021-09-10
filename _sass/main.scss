@@ -1,37 +1,183 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
-$pallete_main: #F9ED69;
-$pallete_second: #F08A5D;
-$pallete_middle: #B83B5E;
-$pallete_last: #6A2C70;
-$pallete_dark: #222831;
+@import "fonts";
+@import "pallete";
+@import "reset";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&family=Montserrat&display=swap');
 
 body {
-  background: $backgroundColor;
+  background: $pallete_middle; //$backgroundColor;
   color: $pallete_dark; //$bodyColor;
-  font-family: $bodyFont;
+  font-family: $monts,$bodyFont;
 }
 
 h1 {
-  color: $pallete_second;
-  font-size: 4em;
+  // width max: size of text
+  width: -moz-fit-content;
+  width: fit-content;
+  // workaround for IE11
+  display: table;
+
+  color: $pallete_middle;
+  font-size: 4.5em;
+  font-family: $baloo, $bodyFont;
+  line-height: 1;
 }
 
 h2 {
-  color: $pallete_last;
-  font-size: 2.5em;
+  padding-top: 5px;
+  line-height: 1;
 }
 
 p {
-  font-size: 1.7em;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  @media (max-width: 1100px) {
+    padding: 20px 20px 20px 20px;
+  }
+
+  font-family: $baloo, $bodyFont;
+  background: $pallete_first;
+  justify-content: center;
+  display: grid;
+  padding-bottom: 10px;
+
+  section.menu {
+    @media (max-width: 900px) { margin-top: 0px; }
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: end;
+  }
+
+  nav.out-there {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    column-gap: 10px;
+  }
+
+  section {
+    nav {
+      color: $pallete_second;
+      font-size: 1.3em;
+
+      a {
+        text-decoration: none;
+        color: $pallete_second;
+      }
+    }
+
+    nav.social {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+
+      img {
+        max-width: 26px;
+      }
+    }
+
+    nav.lang {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4px;
+      font-size: 0.7em;
+      max-width: 80px;
+    }
+
+    nav.links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 3fr;
+      column-gap: 10px;
+      max-width: 300px;
+      a {
+        text-decoration: underline;
+      }
+      a:hover {
+        text-decoration: underline $pallete_middle;
+      }
+    }
+  }
+
+  abbr[title] {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 4em;
+    color: $pallete_last;
+
+    span {
+      color: $pallete_middle;
+    }
+  }
+
+  h2 {
+    color: $pallete_second;
+    font-size: 1.0em;
+  }
 }
 
 .detail {
   font-size: 1em;
 }
 
-.detail.important {
-  color: $pallete_last;
+.important {
+  color: #6A2C70;
+}
+
+main {
+  @media (min-height: 400px) { min-height: 400px; }
+
+  background: $backgroundColor;
+  display: grid;
+  justify-content: center;
+
+  section {
+    max-width: 800px;
+    padding-top: 40px;
+
+    p {
+      font-size: 2.2em;
+      font-family: Helvetica;
+    }
+  }
+
+  nav {
+    @media (min-width: 925px) { min-width: 925px; }
+  }
+}
+
+footer {
+  @media (min-width: 925px) { min-width: 925px; }
+  @media (max-width: 820px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  background: $pallete_middle;
+  color: $pallete_first;
+  display: grid;
+  justify-content: center;
+  padding: 20px 0px 30px 0px;
+
+  h1 {
+    color: $pallete_first;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+}
+
+.text-highlight {
+  color: $pallete_middle;
+  text-decoration: underline;
+  font-weight: bold;
 }

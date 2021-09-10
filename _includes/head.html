@@ -1,7 +1,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/{{ page.layout | default: "main" }}.css">
+    <link rel="stylesheet" href="/assets/css/{{ page.layout }}.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="icon" href="{{ "/assets/images/favicon-32x32.png" | relative_url }}">
     <link rel="alternate" type="application/rss+xml" title="Subscribe to {{ site.title }}"
-                                                     href="{{ feed | strip }}">
+                                                     href="{{ feed }}">
