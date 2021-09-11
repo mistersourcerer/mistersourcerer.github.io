@@ -21,22 +21,21 @@ Swimming on those waters for more than 20 years
 I developed a strong sense
 that **0 lines of code means 0 chances of bugs**{:.text-highlight}.
 This feeling was honed while I tried
-different angles in this same field,
-**sometimes programming, others teaching
+different angles in this same field
+**by programming, some years teaching
 and finally leading tech teams**{:.text-highlight}.
 
-I got passionated about software development
-because it can actually transform reallity.
+I first got **passionated about software development**{:.text-highlight}
+because it can actually **transform reallity**{:.text-highlight}.
 
-For those occasions,
-**when I am really convinced that a software based solution
-will be the thing that saves time,
-money**{:.text-highlight}
-and maybe even ensures a better mental health
+But for the occasions when I am
+really convinced that a software based solution
+will be **the thing that saves time, money**{:.text-highlight}
+and maybe even **ensure a better mental health**{:.text-highlight}
 for all people involved in solving a given issue,
-then **it is indeed a blast
+then it is indeed a blast
 to pull my software development paraphernalia
-and jump right into it**{:.text-highlight}.
+and jump right into it.
 
 One of the most **gratifying**{:.text-highlight}
 aspects of delivering software
@@ -44,6 +43,8 @@ is to see **the creativity flow running from
 the users that now can be free to exercise it**{:.text-highlight}.
 
 You can find me on the following social networks:
+
+{% include social_medias.html %}
 
 
 ## A kind of a portfolio
