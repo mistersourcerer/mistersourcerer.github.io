@@ -1,4 +1,4 @@
-$backgroundColor: #ffffff;
+$backgroundColor: #F5F5F5;
 $bodyColor: #000000;
 
 @import "fonts";
@@ -8,42 +8,97 @@ $bodyColor: #000000;
 body {
   background: $pallete_middle; //$backgroundColor;
   color: $pallete_dark; //$bodyColor;
-  font-family: $monts,$bodyFont;
-}
-
-h1 {
-  // width max: size of text
-  width: -moz-fit-content;
-  width: fit-content;
-  // workaround for IE11
-  display: table;
-
-  color: $pallete_middle;
-  font-size: 4.5em;
-  font-family: $baloo, $bodyFont;
-  line-height: 1;
-}
-
-h2 {
-  padding-top: 5px;
-  line-height: 1;
+  font-family: $bodyFont;
 }
 
 p {
-  line-height: 1.4;
-  -webkit-font-smoothing: antialiased;
+  font-family: $bodyFont;
+  line-height: 1.3;
+  font-size: 2em;
+}
+
+.detail {
+  font-size: 1em;
+}
+
+.important {
+  color: #6A2C70;
+}
+
+@counter-style lovely {
+  system: cyclic;
+  symbols: "\1f499" "\1f49a" "\1f49c" "\1f5a4" "\1f49b" "\1f4a8";
+  suffix: " ";
+}
+
+@counter-style nonono {
+  system: cyclic;
+  symbols: "\1F648" "\1F649" "\1F64A";
+  suffix: " ";
+}
+
+ul {
+  list-style-type: nonono;
+}
+
+.text-highlight {
+  color: $pallete_middle;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h1 {
+  color: $pallete_first;
+
+  font-family: $titleFont;
+  font-weight: 500;
+  font-size: 4.5em;
+}
+
+h2 {
+  font-family: $titleFont;
+  font-size: 2em;
+}
+
+main {
+  background: $backgroundColor;
+  display: grid;
+  justify-content: center;
+
+  @media (max-width: 800px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: left;
+
+    h1 {
+      font-size: 2.1em;
+    }
+
+    h2 {
+      font-size: 1.8em;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+  }
+
+  section {
+    max-width: 800px;
+    padding-top: 40px;
+  }
 }
 
 header {
-  @media (max-width: 1100px) {
-    padding: 20px 20px 20px 20px;
-  }
-
-  font-family: $baloo, $bodyFont;
   background: $pallete_first;
   justify-content: center;
   display: grid;
+  row-gap: 5px;
   padding-bottom: 10px;
+
+  @media (max-width: 1100px) {
+    padding: 20px 20px 20px 20px;
+  }
 
   section.menu {
     @media (max-width: 900px) { margin-top: 0px; }
@@ -60,6 +115,8 @@ header {
   }
 
   section {
+    font-family: $bodyFont;
+
     nav {
       color: $pallete_second;
       font-size: 1.3em;
@@ -109,8 +166,10 @@ header {
   h1 {
     @media(max-width: 1100px) { max-width: 800px; }
     @media(max-width: 780px) { max-width: 500px; }
+    padding-top: 20px;
     font-size: 4em;
     color: $pallete_last;
+    line-height: 0.8;
 
     span {
       color: $pallete_middle;
@@ -119,33 +178,7 @@ header {
 
   h2 {
     color: $pallete_second;
-    font-size: 1.0em;
-  }
-}
-
-.detail {
-  font-size: 1em;
-}
-
-.important {
-  color: #6A2C70;
-}
-
-main {
-  @media (min-height: 400px) { min-height: 400px; }
-
-  background: $backgroundColor;
-  display: grid;
-  justify-content: center;
-
-  section {
-    max-width: 800px;
-    padding-top: 40px;
-
-    p {
-      font-size: 2.2em;
-      font-family: Helvetica;
-    }
+    font-size: 1.2em;
   }
 }
 
@@ -170,10 +203,4 @@ footer {
   h2 {
     font-size: 1em;
   }
-}
-
-.text-highlight {
-  color: $pallete_middle;
-  text-decoration: underline;
-  font-weight: bold;
 }

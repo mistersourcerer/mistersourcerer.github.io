@@ -9,13 +9,24 @@
       <section>
         {{ content }}
       </section>
-
-      <nav class="posts-list">
-        {% include posts_nav.html %}
-      </nav>
     </main>
 
     {% include footer.html %}
+
+    <script>
+      (function() {
+        const style = document.querySelector('ul').style;
+        const easterEggOriginalStyle = style['list-style-type'];
+
+        const easter_egg = new Konami(function() {
+          if(style['list-style-type'] != 'lovely') {
+            style['list-style-type'] = 'lovely';
+          } else if(undefined !== easterEggOriginalStyle) {
+            style['list-style-type'] = easterEggOriginalStyle;
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
 

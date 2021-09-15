@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: index
 title: "[msbb]"
 lang: "PT-br"
 ---

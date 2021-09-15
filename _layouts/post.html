@@ -12,5 +12,19 @@
     </main>
 
     {% include footer.html %}
+
+
+    <script src="/assets/nyancat/nyan.js"></script>
+    <script>
+      (function() {
+        var omgNyan = false
+        const easter_egg = new Konami(function() {
+          console.log(omgNyan);
+          nyan(omgNyan);
+          omgNyan = !omgNyan;
+          console.log(omgNyan);
+        });
+      })();
+    </script>
   </body>
 </html>

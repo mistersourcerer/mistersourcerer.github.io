@@ -1,5 +1,5 @@
 ---
-layout: front
+layout: index
 title: "[msbb]"
 lang: "EN-us"
 ---
@@ -16,6 +16,30 @@ I would like to first tell you that
 in this arena I see myself more
 as a **problem solver**{:.text-highlight}
 than anything else.
+
+## A kind of a portfolio
+
+It is my pleasure to introduce you to
+some of my **pet projects**{:.text-highlight}, experiences
+and general software development related stuff
+(in no particular order)
+**that you might enjoy**{:.text-highlight}.
+This is a short list,
+if you want a more comprehensive one
+I can strongly suggest that you find me on the socialz:
+
+{% include social_medias.html %}
+
+<br />
+Right after this brief list of projects there is some more writing
+to let you know what are my feelings and relationship
+with software development and the industry nowadays.
+
+I really do hope you enjoy the tour.
+
+{% include EN-us/projects.html %}
+
+## A lifetime of software development
 
 Swimming on those waters for more than 20 years
 I developed a strong sense
@@ -45,11 +69,3 @@ the users that now can be free to exercise it**{:.text-highlight}.
 You can find me on the following social networks:
 
 {% include social_medias.html %}
-
-
-## A kind of a portfolio
-
-And finally I would like to show you
-some of my pet-projects, experiences
-and general software development related stuff
-that I have authored and you might enjoy:

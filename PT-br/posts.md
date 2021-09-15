@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: posts_list
 title: [msbb]
 lang: PT-br
 ---

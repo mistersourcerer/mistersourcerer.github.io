@@ -1,17 +1,41 @@
 @import "pallete";
 @import "fonts";
 
-h1 {
-  color: $pallete_first;
-  padding-bottom: 20px;
-}
-
 main {
-  h2 {
+  h1 {
+    color: $pallete_first;
+  }
+
+  h1 + p {
+    padding-top: 30px;
+  }
+
+  h1 + p::first-letter {
     color: $pallete_middle;
-    font-family: $baloo, $bodyFont;
+    font-family: $titleFont;
+    font-size: 3em;
+    line-height: 0.4;
+  }
+
+  h2 {
+    color: $pallete_first;
+    font-family: $titleFont;
     font-size: 2.3em;
-    padding: 30px 0px 20px 0px;
+  }
+
+  h2 + p {
+    padding-top: 20px;
+  }
+
+  h2 + p::first-letter {
+    color: $pallete_middle;
+    font-family: $titleFont;
+    font-size: 2em;
+    line-height: 0.2;
+  }
+
+  p + h2 {
+    padding-top: 30px;
   }
 
   article {
@@ -22,10 +46,12 @@ main {
     padding-top: 40px;
     max-width: 800px;
 
-    p {
-      font-family: Helvetica;
-      font-size: 1.7em;
-      padding-bottom: 35px;
-    }
+  }
+
+  p {
+    font-family: $ubuntu;
+    font-weight: 300;
+    font-size: 1.7em;
+    padding-bottom: 50px;
   }
 }
