@@ -3,8 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Mister Sourcerer's Bloggy Blog [msbb]"
 plugins:
   - jekyll-feed
-  - jemoji
-lang: "EN-us"
+lang: "en-us"
 
 defaults:
   -
@@ -19,15 +18,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
-      path: "PT-br"
-      type: "posts"
-    values:
-      lang: "PT-br"
 
 # jekyll-feed:
 feed:
   categories:
-    - EN-us
-    - PT-br
+    - en-us
+    - pt-br

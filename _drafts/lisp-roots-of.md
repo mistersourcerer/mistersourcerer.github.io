@@ -1,8 +1,7 @@
 ---
 title: "This is a post about LISP"
-lang: EN-us
 categories:
-  - EN-us
+  - en-us
   - OMG-lol
 ---
 

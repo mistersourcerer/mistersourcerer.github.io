@@ -1,8 +1,7 @@
 ---
 title: Esse é um post sobre LISP
-lang: PT-br
 categories:
-  - PT-br
+  - pt-br
 ---
 
 # Esse post é sobre LISP
