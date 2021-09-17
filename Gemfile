@@ -6,4 +6,3 @@ gem "webrick"
 
 gem "jekyll"
 gem "jekyll-feed"
-gem "jemoji"
