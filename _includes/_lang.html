@@ -1,0 +1,16 @@
+{% for category in page.categories %}
+  {% if category == "pt-br" %}
+    {% assign pt = true %}
+  {% endif %}
+{% endfor %}
+
+{% capture lang %}
+  {% if pt %}
+    pt-br
+  {% elsif page.lang %}
+    {{ page.lang }}
+  {% else %}
+    {{ site.lang }}
+  {% endif %}
+{% endcapture %}
+{% assign lang = lang | strip %}

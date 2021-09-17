@@ -1,0 +1,26 @@
+title: Ruspea
+description: Lisp implementation written in Ruby and inspired by Clojure
+link: https://github.com/mistersourcerer/ruspea
+image: /assets/images/logos/github.png
+highlights:
+  - get something difficult done
+  - understand exactly what are parsers, lexers, compilers...
+  - learn a little bit about the Clojure internals
+  - get better at Lisp
+tags:
+  - ruby
+  - clojure
+  - lisp
+  - language_design
+  - interpreter
+  - lexer
+content: |
+    Much probably my most cherished pet project.
+    It is far from being the best code I have written
+    but for sure is the one I had the most fun with.
+
+    As a developer who lacks the formal education
+    I am on a self inflicted mission to acquire
+    the Computer Science knowledge that I don't have yet.
+    This project was part a little stone
+    that I managed to lay down on this path.

@@ -1,7 +1,6 @@
 ---
 layout: posts_list
 title: "[msbb]"
-lang: "EN-us"
 ---
 
 # checkout these posts:

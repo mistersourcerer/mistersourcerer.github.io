@@ -1,0 +1,15 @@
+{% include _lang.html %}
+
+<section class="projects">
+  {% for project_hash in site.data.projects[lang] %}
+    {% assign project = project_hash[1] %}
+    {% include project.html
+      title=project.title
+      description=project.description
+      link=project.link
+      image=project.image
+      highlights=project.highlights
+      tags=project.tags
+      content=project.content%}
+  {% endfor %}
+</section>

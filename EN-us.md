@@ -1,7 +1,6 @@
 ---
 layout: index
 title: "[msbb]"
-lang: "EN-us"
 ---
 
 # Hi, my name is Ricardo Valeriano
@@ -37,7 +36,7 @@ with software development and the industry nowadays.
 
 I really do hope you enjoy the tour.
 
-{% include EN-us/projects.html %}
+{% include projects.html %}
 
 ## A lifetime of software development
 

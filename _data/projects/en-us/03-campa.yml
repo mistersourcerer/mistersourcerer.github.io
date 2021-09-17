@@ -1,0 +1,26 @@
+title: Campa
+description: "Another Lisp in Ruby: the Paul Graham's one this time"
+link: https://github.com/mistersourcerer/campa
+image: /assets/images/logos/github.png
+highlights:
+  - get back in the flow of writting code
+  - exercise some white paper/paper reading muscles
+  - keep declaring my love to Lisp &#128153;
+tags:
+  - ruby
+  - roots_of_lisp
+  - language_design
+  - runtime
+  - lexer
+content: |
+  This has way better code and documentation and polishing
+  than one can find in Ruspea, that is for sure XD.
+  This was a project I wrote to get back in the swing
+  after coming back from a short sabbatical I gave myself
+  when moving back to Brazil.
+
+  It makes very clear that I am still
+  in the mood to keep studying language implementation, design
+  and all the things in between.
+  I can say that this is the type of software I am comfortable
+  writing on my free time.

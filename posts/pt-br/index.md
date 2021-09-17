@@ -1,7 +1,7 @@
 ---
 layout: posts_list
 title: [msbb]
-lang: PT-br
+lang: pt-br
 ---
 
 # olha só esses posts:

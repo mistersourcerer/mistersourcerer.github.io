@@ -1,0 +1,42 @@
+{% include _lang.html %}
+
+<div class="project">
+  <h1>{{ include.title }}</h1>
+  <article>
+    <h2>
+      {{ include.description }}
+    </h2>
+
+    <a href="{{ include.link }}/" target="_blank">
+      <section class="project-highlight">
+        <nav>
+          <img src="{{ include.image }}" />
+        </nav>
+
+        <article>
+          {% if lang == "pt-br" %}
+            <h3>Trabalhar nesse projeto me permitiu:</h3>
+          {% else %}
+            <h3>Working on this allowed me to:</h3>
+          {% endif %}
+
+          <ul>
+            {% for highlight in include.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+
+          <section class="tags">
+            {% for tag in include.tags %}
+              <span>#{{ tag }}</span>
+            {% endfor %}
+          </section>
+        </article>
+      </section>
+    </a>
+
+    <section>
+      {{ include.content | markdownify }}
+    </section>
+  </article>
+</div>

@@ -1,0 +1,32 @@
+title: Wormallies
+description: Snake game clone on vanilla JavaScript (ES6)
+link: /examples/wormallies
+image: /assets/images/preview/wormallies.png
+highlights:
+  - get familiar with (at the time) modern JavaScript
+  - have fun with visual results for my development XD
+  - update my knowledge base on (at the time) modern browsers
+tags:
+  - js
+  - es6
+  - node
+  - webpack
+  - vanilla
+  - webgame
+content: |
+  This one made me smile a lot.
+  it was way bigger in scope when I conceived it
+  then in it's current form though.
+  I wanted to synchronize the appearance of food
+  and posiong particles with "good" and "bad" interactions
+  of the player on Social Medias.
+  So the game itself would be "just" the front end for this idea.
+  I might revisit it and try to go full bananas on this project.
+  But for now it makes for a very familiar gaming experience :).
+
+  I really needed to get my knives sharper
+  on the web front end arena at the time.
+  There was just too much stuff that I wasn't aware of.
+  My days of hiding deep inside the backend development cave needed a break.
+  I really enjoy f.e. stuff, though.
+  So I carved some free time to play around with it.

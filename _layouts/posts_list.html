@@ -11,7 +11,13 @@
       </section>
 
       <nav class="posts-list">
-        {% include posts_nav.html %}
+        <ul>
+          {% for post in site.categories[lang] %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </nav>
     </main>
 
