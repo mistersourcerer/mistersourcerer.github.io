@@ -3,7 +3,7 @@ layout: index
 title: "[msbb]"
 ---
 
-# Hi, my name is Ricardo Valeriano
+# Hi, I am Ricardo Valeriano
 
 And I go as @mistersourcerer on the interwebz.
 
@@ -14,7 +14,7 @@ But before we go about it,
 I would like to first tell you that
 in this arena I see myself more
 as a **problem solver**{:.text-highlight}
-than anything else.
+than anything else (like a x or y language developer).
 
 ## A kind of a portfolio
 
@@ -25,7 +25,7 @@ and general software development related stuff
 **that you might enjoy**{:.text-highlight}.
 This is a short list,
 if you want a more comprehensive one
-I can strongly suggest that you find me on the socialz:
+I can strongly suggest you to find me on the socialz:
 
 {% include social_medias.html %}
 

@@ -1,26 +1,25 @@
 title: Undecid
-description: Lisp implementation written in Ruby and inspired by Clojure
-link: https://github.com/mistersourcerer/ruspea
+description: A generic Turing Machine simulator written in Kotlin (& Kotlin/JS + React)
+link: https://github.com/mistersourcerer/undecid
 image: /assets/images/logos/github.png
 highlights:
-  - get something difficult done
-  - understand exactly what are parsers, lexers, compilers...
-  - learn a little bit about the Clojure internals
-  - get better at Lisp
+  - this is a working in progress, so the jury's still out XD
+  - get some real world practice with Kotlin
+  - get reacquainted with React
+  - to be a little bit closer to the Java ecossystem (once again)
 tags:
-  - ruby
-  - clojure
-  - lisp
-  - language_design
+  - kotlin
+  - react
+  - frontend
+  - simulator
   - interpreter
   - lexer
+  - language design
 content: |
-    Much probably my most cherished pet project.
-    It is far from being the best code I have written
-    but for sure is the one I had the most fun with.
+    A work in progress.
+    The vision for it is to offer a visually appealing
+    way to write "programs" that run on top of a turing machine simulator.
 
-    As a developer who lacks the formal education
-    I am on a self inflicted mission to acquire
-    the Computer Science knowledge that I don't have yet.
-    This project was part a little stone
-    that I managed to lay down on this path.
+    I promise I will be back to rewrite this
+    as soon as the project is a little more mature
+    so I can have a better veredict of what it really turned into :).
