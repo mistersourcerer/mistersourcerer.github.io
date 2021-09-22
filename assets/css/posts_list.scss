@@ -10,29 +10,28 @@ main {
   }
 
   ul li:nth-child(1) {
-    @media(max-width: 1100px) {
-      line-height: 1;
-    }
-    @media(max-width: 780px) {
-      font-size: 0.7em;
-      line-height: 1;
-    }
     a {
+      @media (max-width: 800px) {
+        font-size: 1.5em;
+      }
       font-size: 4.2em;
     }
   }
 
   ul li:nth-child(2) {
-    @media(max-width: 1100px) {
-      line-height: 1;
-    }
     a {
+      @media (max-width: 800px) {
+        font-size: 1.5em;
+      }
       font-size: 2.8em;
     }
   }
 
   ul li:nth-child(3) {
     a {
+      @media (max-width: 800px) {
+        font-size: 1.5em;
+      }
       font-size: 2em;
     }
   }
