@@ -11,7 +11,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      author: "Mr. Sourcerer aka Ricardo Valeriano"
+      author: "Ricardo Valeriano"
   -
     scope:
       path: ""
