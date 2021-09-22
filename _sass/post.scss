@@ -20,15 +20,18 @@ main {
       padding-top: 5px;
       padding-bottom: 30px;
 
-      @media (min-width: 500px) {
+      @media (min-width: 10px) and (max-width: 750px) {
         span {
-          font-size: 10px;
+          font-size: 9px;
         }
+        padding-bottom: 5px;
       }
-      @media (min-width: 550px) {
+
+      @media (min-width: 750px) and (max-width: 1100px) {
         span {
           font-size: 12px;
         }
+        padding-bottom: 20px;
       }
     }
   }
@@ -70,6 +73,7 @@ main {
     color: $pallete_first;
     font-family: $titleFont;
     font-size: 1.4em;
+    line-height: 1;
   }
 
   h4 {
@@ -83,25 +87,31 @@ main {
 
   article {
     @media (max-width: 800px) {
-      padding-right: 20px;
-      padding-left: 20px;
-
-      h1 {
-        font-size: 2.2em;
-      }
-
       header section {
         font-size: 0.8em;
-        grid-template-columns: 1fr 1fr;
-
-        .date {
-          grid-column: 1/1;
-        }
       }
     }
 
     max-width: 800px;
     padding-top: 20px;
+
+    @media (min-width: 10px) and (max-width: 750px) {
+      padding-right: 5px;
+      padding-left: 5px;
+
+      h1 {
+        font-size: 1.6em;
+      }
+    }
+
+    @media (min-width: 750px) and (max-width: 1100px) {
+      padding-right: 10px;
+      padding-left: 10px;
+
+      h1 {
+        font-size: 2.2em;
+      }
+    }
 
     ul {
       padding-bottom: 40px;
@@ -111,11 +121,13 @@ main {
       @media (min-width: 10px) and (max-width: 750px) {
         font-size: 0.9em;
         padding-bottom: 15px;
+        padding-left: 8px;
       }
 
       @media (min-width: 750px) and (max-width: 1100px) {
         font-size: 1.2em;
         padding-bottom: 30px;
+        padding-left: 12px;
       }
     }
 
