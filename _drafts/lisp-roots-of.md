@@ -4,9 +4,6 @@ categories:
   - en-us
   - OMG-lol
 ---
-
-# This is a post about lisp
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam nunc, efficitur ultrices porta eget, ornare nec nunc. Phasellus elit elit, dignissim a auctor non, sollicitudin interdum lorem. Vivamus eget diam orci. Nullam egestas justo vitae dapibus malesuada. Nam sem risus, tincidunt et mattis a, lacinia et ex. Etiam feugiat dolor ac lacus malesuada commodo. Integer pulvinar odio sit amet metus interdum, ut faucibus ex cursus.
 
 ## here we are going to discuss stuff

@@ -2,15 +2,56 @@
 @import "fonts";
 
 main {
-  h1 {
-    color: $pallete_first;
+  padding-bottom: 60px;
+
+  header {
+    h1 {
+      font-size: 3.5em;
+    }
+
+    section {
+      display: grid;
+      justify-content: end;
+      justify-items: end;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding-top: 5px;
+      padding-bottom: 30px;
+
+      @media (min-width: 500px) {
+        span {
+          font-size: 10px;
+        }
+      }
+
+      @media (min-width: 550px) {
+        span {
+          font-size: 12px;
+        }
+      }
+
+      @media (min-width: 870px) {
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .date {
+      grid-column: 2/4;
+    }
+
+    background-color: transparent;
+
+    h1 {
+      color: $pallete_first;
+    }
   }
 
-  h1 + p {
+  header + p {
     padding-top: 30px;
   }
 
-  h1 + p::first-letter {
+  header + p::first-letter {
     color: $pallete_middle;
     font-family: $titleFont;
     font-size: 3em;
@@ -54,4 +95,13 @@ main {
     font-size: 1.7em;
     padding-bottom: 50px;
   }
+
+  em {
+    font-style: italic;
+  }
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
 }

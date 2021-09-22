@@ -4,8 +4,6 @@ categories:
   - pt-br
 ---
 
-# Esse post é sobre LISP
-
 Aqui a gente fala umas groselhas.
 
 ## Aqui tem mais discussão sobre essas groselhas
