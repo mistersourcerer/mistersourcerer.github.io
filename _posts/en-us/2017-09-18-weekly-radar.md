@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Weekly Radar [ 18-09-17 week ]"
+title:  "Weekly Radar [18-09-17]"
 date:   2017-09-21 00:00:00
 excerpt: Things I stumbled upon against this week.
 description: Not necessarily new things, but nice ones (IMHO).
