@@ -36,7 +36,7 @@ to explain my strange thoughts.
 
 ---
 
-![Porto - São Nicolau - Portugal (13/09/2017)](/assets/images/old_blog/weekly/2017-09-18.jpeg){: .center-image width="450"}
+![Porto - São Nicolau - Portugal (13/09/2017)](/assets/images/old_blog/weekly/2017-09-18.jpeg){: .center-image}
 A beautiful afternoon at Porto - Portugal.<br />
 For more like this,
 follow me on instagram [@valeriano.3act](http://instagram.com/valeriano.3act){: target="blank"}.

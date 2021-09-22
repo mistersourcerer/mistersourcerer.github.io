@@ -16,6 +16,7 @@ main {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       padding-top: 5px;
       padding-bottom: 30px;
+      column-gap: 10px;
 
       @media (min-width: 500px) {
         span {
@@ -83,6 +84,19 @@ main {
     @media (max-width: 800px) {
       padding-right: 20px;
       padding-left: 20px;
+
+      h1 {
+        font-size: 2.2em;
+      }
+
+      header section {
+        font-size: 0.8em;
+        grid-template-columns: 1fr 1fr;
+
+        .date {
+          grid-column: 1/1;
+        }
+      }
     }
     padding-top: 40px;
     max-width: 800px;
@@ -101,7 +115,18 @@ main {
   }
 }
 
-.center-image {
+img.center-image {
   margin: 0 auto;
   display: block;
+
+  // to ensure old posts behave correctly
+  @media (min-width: 320px) {
+      max-width: 270px;
+  }
+  @media (min-width: 500px) {
+      max-width: 450px;
+  }
+  @media (min-width: 850px) {
+    max-width: 800px;
+  }
 }
